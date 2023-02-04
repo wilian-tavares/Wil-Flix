@@ -11,18 +11,30 @@
 .container-cardPopular img{
     height: 300px;
 }
-.container-cardPopular button{
-    width: 100%;
-    height: 40px;
-    background-color: #0074EE;
-   
+
+.container-cardPopular button {
+    color: #FFF;
     font-size: 20px;
     cursor: pointer;
     transition: 0.5s;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
 }
-.container-cardPopular button a {
+.container-cardPopular  .detalhes{
+ 
+    background-color: #0074EE;
+   
+   
+}
+.container-cardPopular  .detalhes a {
     color: #FFF;
 }
-.container-cardPopular button:hover {
+.container-cardPopular  .detalhes:hover {
     background-color: hsla(211, 100%, 47%, 0.7);
+}
+
+.container-cardPopular .remover {
+    background-color: #ee0000;
+
 }

@@ -1,7 +1,7 @@
 import './favoritos.scss';
 
 import { useEffect, useState } from 'react';
-import CardPopulares from '../../components/CardPopulares';
+import CardFavoritos from '../../components/CardFavoritos';
 
 
 export default function Favoritos(){
@@ -17,23 +17,46 @@ export default function Favoritos(){
     }, [])
 
 
+    function RemoverFlme(id){
+        let filtrofilmes = filmes.filter((filme) => {
+            return (
+                filme.id !== id
+            )
+        })   
+        setFilmes(filtrofilmes)
+
+        localStorage.setItem("@wilFlix", JSON.stringify(filtrofilmes))
+    }
+   
+
     return(
         <div className='container-favoritos'>
             <h1>Favoritos</h1>
+           
+     
             
             <div className='container-favoritos-filmes'>
             {
+                filmes.length === 0 && <span className='span-vazio'>A Lista está Vazia... Adicione algum filme...</span>
+
+            }
+            {
                 filmes.map((filme) => {
                     return(
-                        <CardPopulares  CardFilme key={filme.id}
+                        <CardFavoritos  CardFilme key={filme.id}
                                 titulo={filme.title}
                                 imagem={`https://image.tmdb.org/t/p/original/${filme.poster_path}`   }
-                                // descricao={filme.overview}
                                 detalhes={`/filme/${filme.id}`}
+                               remover={() => RemoverFlme(filme.id)}
+                            
                             />
+                            
                     )
+                    
                 })
-                }
+            }
+
+
             </div>
         </div>
     )

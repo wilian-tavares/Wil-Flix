@@ -1,6 +1,5 @@
-import './CardPopulares.scss'
 
-export default function CardPopulares(props){
+export default function CardFavoritos(props){
     return(
         <div className="container-cardPopular">
             <h2>{props.titulo}</h2>
@@ -11,7 +10,7 @@ export default function CardPopulares(props){
                 <a href={props.detalhes} >Detalhes</a>
             </button>
 
-            {/* <button className='remover' onClick={props.remover}>Remover</button> */}
+            <button className='remover' onClick={props.remover}>Remover</button>
         </div>
     )
 }
