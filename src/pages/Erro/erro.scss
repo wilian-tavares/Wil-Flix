@@ -1,0 +1,19 @@
+.container-erro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 70vh;
+
+}
+
+.container-erro strong {
+    color: red;
+    font-size: 48px;
+}
+.container-erro span {
+    font-size: 48px;
+    font-weight: bold;
+}

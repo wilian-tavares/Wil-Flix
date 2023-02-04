@@ -1,0 +1,28 @@
+.container-cardPopular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 20px;
+    width: 200px;
+}
+.container-cardPopular img{
+    height: 300px;
+}
+.container-cardPopular button{
+    width: 100%;
+    height: 40px;
+    background-color: #0074EE;
+   
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container-cardPopular button a {
+    color: #FFF;
+}
+.container-cardPopular button:hover {
+    background-color: hsla(211, 100%, 47%, 0.7);
+}

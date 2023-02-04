@@ -1,0 +1,11 @@
+.container-favoritos {
+    display: flex;
+   flex-direction: column;
+}
+
+.container-favoritos-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    justify-content: center;
+}

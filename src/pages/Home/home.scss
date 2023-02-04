@@ -1,0 +1,15 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-home .info { // apenas no primeiro H2
+    font-size: 38px;
+}
+
+.container-conteudo-home {
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   align-items: last baseline;
+}
