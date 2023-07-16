@@ -58,7 +58,7 @@ export default function Filme() {
 
             <div className="container-filme-card">
                 <h2>{filme.title}</h2>
-                <img src={`https://image.tmdb.org/t/p/original/${filme.backdrop_path}`} alt={filme.titulo}/>
+                <img src={`https://image.tmdb.org/t/p/w500/${filme.backdrop_path}`} alt={filme.titulo}/>
                 <p>{filme.overview}</p>
                 <span>Nota: {Math.ceil(filme.vote_average)} / 10</span> 
                 

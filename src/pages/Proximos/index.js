@@ -43,7 +43,7 @@ export default function Proximos() {
                     return(  
                         <CardFilme  CardFilme key={filme.id}
                             titulo={filme.title}
-                            imagem={`https://image.tmdb.org/t/p/original/${filme.poster_path}`   }
+                            imagem={`https://image.tmdb.org/t/p/w500/${filme.poster_path}`   }
                             descricao={filme.overview}
                             detalhes={`/filme/${filme.id}`}
                             data={`Estreia: ${dataAtualizada}`}

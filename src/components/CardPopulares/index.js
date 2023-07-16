@@ -4,7 +4,7 @@ export default function CardPopulares(props){
     return(
         <div className="container-cardPopular">
             <h2>{props.titulo}</h2>
-            <img src={props.imagem} alt={props.titulo}/>
+            <img src={props.imagem} alt={props.titulo} width="200" height="300"/>
             <p>{props.descricao}</p>
             
             <button className='detalhes'>
