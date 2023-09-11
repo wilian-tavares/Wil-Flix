@@ -15,21 +15,22 @@ React-JS, Javascript, Sass,
 
 ## Como Iniciar
 No seu Diretório rode o seguinte comando
-´´´
+
+```
 git clone https://github.com/wilian-tavares/Wil-Flix.git
-´´´
+```
+
 
 Após clonar o respositório, navegue até a pasta raiz do Projeto e rode o outro comando:
 
-´´´
+```
 npm install
-´´´
+```
 
 ## Para dar build no projeto é só rodar o comando:
 
-´´´
-npm start
-´´´
+```
+npm start```
 
 ## API USADA
 [themoviedb](https://www.themoviedb.org/)
