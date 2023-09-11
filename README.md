@@ -5,10 +5,18 @@ O site consiste em fazer buscas na api https://www.themoviedb.org/ e trazer film
 
 ## Funcionalidades do projeto
 São 4 Páginas no site,
-** Home: Lista os filmes populares na semana
-** Cinemas: Lista os filmes que estão em Cartaz nos cinemas do Brasil
-** Próximos: Lista os próximos filmes a estrear nos cinemas e traz informações como: (cartaz do filme, sinopse, data de estreia)
-** Favoritos: Lista os filmes que o usuário salvou como favorito.
+
+
+* Home: Lista os filmes populares na semana
+
+
+* Cinemas: Lista os filmes que estão em Cartaz nos cinemas do Brasil
+
+
+* Próximos: Lista os próximos filmes a estrear nos cinemas e traz informações como: (cartaz do filme, sinopse, data de estreia)
+
+
+* Favoritos: Lista os filmes que o usuário salvou como favorito.
 
 ## Tecnologias utilizadas
 React-JS, Javascript, Sass,
@@ -25,12 +33,12 @@ Após clonar o respositório, navegue até a pasta raiz do Projeto e rode o outr
 
 ```
 npm install
+npm start
 ```
 
-## Para dar build no projeto é só rodar o comando:
 
-```
-npm start```
+
+
 
 ## API USADA
 [themoviedb](https://www.themoviedb.org/)
